@@ -1,0 +1,22 @@
+<h1>Photo Filter</h1>
+<canvas id="can"></canvas>
+<p></p>
+
+<input class="file" type="file" multiple = "false" accept = "image/*" id="original" onchange="upload()">
+<p></p>
+
+<input class="randCC" type="button" value="Random Color Change" onclick="randColor()">
+
+<input class="rainbow" type="button" value="Rainbow" onclick="rainbowscale()">
+
+<input class="gray" type="button" value="Grayscale" onclick="grayscale()">
+
+<input class="red" type="button" value="Red" onclick="redscale()">
+
+<input class="blur" type="button" value="Blur" onclick="blurscale()">
+
+<p></p>
+
+<input class="button" type="button" value="Reset Image" onclick="reset()">
+
+<input class="button" type="button" value = "Clear Image" onclick="clearCanvas()">

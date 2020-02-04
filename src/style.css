@@ -1,0 +1,101 @@
+body{
+  text-align: center;
+  background-color: lightblue;
+}
+h1{
+  font: Georgia, 35px;
+  text-variant: small-caps;
+  color: #222222;
+  
+}
+.button:hover{
+  color:black;
+  background-color:green;
+  height:50px;
+  width:125px;
+}
+
+canvas{
+  border: 2px solid black;
+  height: none;
+  width: none;
+}
+input{
+  height: 40px;
+  outline: 1px black solid;
+  margin: 5px;
+  buffer: 2px;
+}
+.file{
+  height: 25px;
+  outline: none;
+}
+
+.randCC {
+  background-color: #00FF00;
+  color: #F06B07;
+  border: 2px blue solid;
+  font-weight: bolder;
+  }
+.randCC:hover {
+  direction: rtl;
+  background-color: #FF00FF;
+  color: #100E47;
+  border: 2px #black solid;
+  width: 200px;
+  height: 50px;
+}
+.rainbow{
+  background-color: red;
+  border: 2px solid purple;
+  color: orange;
+  text-decoration: underline green;
+  width: 100px;
+}
+.rainbow:hover{
+  background-color: yellow;
+  border: 2px solid DarkOrange;
+  color: blue;
+  text-decoration: underline red;
+  width: 150px;
+  height: 50px;
+}
+.gray{
+  background-color: #333333;
+  color: #CCCCCC;
+  border: 2px solid black;
+  font-style: sherif;
+  width: 100px;
+}
+.gray:hover{
+  background-color: #CCCCCC;
+  color: #333333;
+  border: 2px solid black;
+  font-weight: bold;
+  width: 125px;
+  height: 50px;
+}
+.red{
+  background-color: #FF0000;
+  color: #400000;
+  border: 2px solid #FF2222;
+  font-weight: bolder;
+  width: 100px;
+}
+.red:hover{
+  width: 125px;
+  height: 50px;
+  background-color: #CC0000;
+}
+.blur{
+  background-color: white;
+  font-sixe: 25px;
+  font-weight: bold;
+  filter: blur(1px);
+  width: 100px;
+}
+.blur:hover{
+  filter: blur(0);
+  width: 125px;
+  height: 50px;
+}
